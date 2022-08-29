@@ -1,7 +1,46 @@
+:root{
+    --cream: hsl(30, 38%, 92%);
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 326px auto;
+}
+
+.principal-container{
+    width: 602px;
+    height: 451px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.product-img{
+    
+    background-size: cover;
+    height: 190px;
+}
+
+.product-info{
+    width: 302px;
+    height: 451px;
+    padding: 35px 32px;
+    background-color: aqua;
+}
+
+h2{
+    text-transform: uppercase;
 }
 
 .attribution{ 
