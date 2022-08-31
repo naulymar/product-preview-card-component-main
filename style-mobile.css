@@ -1,5 +1,6 @@
-@media (max-width: 375px) {
-    .principal-container{
+@media screen and (max-width: 375px) {
+    
+    .product-preview{
         width: 342px;
         height: 609px;
         display: flex;
