@@ -23,11 +23,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 326px auto;
+    min-height: 100vh; 
+    margin: 0 1rem;
+    justify-content: center;
 }
 
-.principal-container{
-    width: 602px;
+.product-preview{
+    max-width: 602px;
     height: 451px;
     background-color: var(--backgroundWhite);
     display: flex;
@@ -123,9 +125,7 @@ button:hover{
 #img-cart{
     width: 15px; 
     height:15px; 
-    background-image: url("./images/icon-cart.svg");
-    background-size: cover;
-    overflow: hidden;
+    margin: 0 10px 0 0;
 }
 
 /*Footer*/
