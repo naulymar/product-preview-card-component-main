@@ -1,0 +1,44 @@
+@media (max-width: 375px) {
+    .principal-container{
+        width: 342px;
+        height: 609px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .product-img{
+        width: 342px;
+        height: 239px;
+        background-image: url(./images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-desc{
+        width: 293px;
+        height: 81px;
+    }
+
+    .product-info{
+        width: 343px;
+        height: 370px;
+        padding: 20px 20px;
+    }
+
+    #principal-title{
+        width: 277px;
+        padding: 10px 0;
+        font-size: 30px;
+        line-height : 30px;
+    }
+
+    button{
+        width: 295px;
+        height: 45px;
+    }
+
+    .price{
+        padding: 40px 0 10px 0;
+    }
+    
+} 
